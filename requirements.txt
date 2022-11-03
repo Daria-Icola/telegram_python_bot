@@ -1,0 +1,7 @@
+pytelegrambotapi==3.8.2
+psycopg2-binary==2.9
+numpy==1.21.2
+pandas==1.3.2
+xlsxwriter==3.0.1
+xlrd==2.0.1
+openpyxl==3.0.7

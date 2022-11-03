@@ -1,0 +1,8 @@
+data/
+*.xlsx
+.xlsx
+Cars.xlsx
+venv
+.idea
+temp
+__pycache__/
