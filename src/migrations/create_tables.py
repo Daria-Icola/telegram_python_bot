@@ -57,22 +57,6 @@ def update_table_data(db_user, db_password, host, port, db):
 
 
 
-# def create_table_roles(db_user, db_password, host, port, db):
-#     conn = connect_data(db_user, db_password, host, port, db)
-#     cur = conn.cursor()
-#
-#     create_roles_table = '''CREATE TABLE roles(
-#             ID SERIAL PRIMARY KEY,
-#             ROLE TEXT NOT NULL)
-#             '''
-#     cur.execute(create_roles_table)
-#     conn.commit()
-#
-#     cur.close()
-#     conn.close()
-
-
-
 def create_table_rides(db_user, db_password, host, port, db):
     conn = connect_data(db_user, db_password, host, port, db)
     cur = conn.cursor()
